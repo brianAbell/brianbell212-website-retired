@@ -1,0 +1,45 @@
+# Site settings
+name: Brian Bell
+title: Brian Bell | Software Engineer
+description: A current CS graduate student of Virginia Tech studying the application of Artificial Intelligence in our everyday lives!
+url: https://brianbell212.github.io/
+baseurl: ''
+email: bbell.semm@gmail.com
+cover: https://brianbell212.github.io/img/og.png
+logo: https://brianbell212.github.io/img/emojis/technologist.png
+resume: https://brianbell212.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:bbell.semm@gmail.com
+  - title: twitter
+    url: https://twitter.com/Official_BellAI
+  - title: instagram
+    url: https://instagram.com/brianbel1
+  # - title: codepen
+  #   url: http://codepen.io/bchiang7
+  - title: github
+    url: https://github.com/brianbell212
+  - title: linkedin
+    url: https://www.linkedin.com/in/bbell97/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
