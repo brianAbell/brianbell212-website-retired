@@ -1,0 +1,29 @@
+languages:
+  - item: Python
+  - item: Java
+  - item: C
+  - item: HTML
+  - item: CSS/Sass
+  - item: JavaScript (ES6)
+
+frameworks:
+  - item: Locust
+  - item: Jekyll
+  - item: Flask
+  - item: Node
+  
+tools:
+  - item: Git & Github
+  - item: Bash
+  - item: IntelliJ
+  - item: Eclipse
+  - item: Visual Studio Code
+  - item: Gulp
+
+# design:
+#   - item: Sketch
+#   - item: InDesign
+#   - item: InVision
+#   - item: Prototyping
+#   - item: Wireframing
+#   - item: User Testing
